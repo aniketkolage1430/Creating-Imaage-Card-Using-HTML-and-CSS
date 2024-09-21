@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 20px;
+            width: 198 px;
+            height: 350px;
+            padding:  34px;
+            margin: 122px;
+
+        }
+
+        .image {
+            padding: 0px;
+            margin: 0px;
+            border-radius: 150px;
+        }
+        .button button :hover{
+            background-color: bisque;
+        }
+
+        .image img {
+            padding: px;
+            border-radius: 15px;
+            margin: 0%;
+        }
+
+        .features {
+            font-size: 15px;
+            padding: 20px;
+            margin: 0%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .capsules span {
+            border: 2px solid black;
+            font-size: 13px;
+            border-radius: 12px;
+            padding-left: 12px;
+            margin: 10px;
+        }
+
+        .capsules {
+            padding: 2px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .features h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .button{
+            padding: 12px;
+            margin: 13px;
+            text-align: center;
+        }
+        .button button 
+        {
+            padding: px;
+            border-radius: 10px;
+            border:4px solid black;
+            color:chocolate;
+            background-color: ;
+            font-size: larger;
+        }
+    </style>
+    <title>IMAGE CARD </title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image"><img width="250" src="tuf-gaming-qhd-wallpaper-2560x1440-22356.jpg" alt="">
+            <div class="capsules">
+                <span>PRICE:-60000/-</span>
+                <span>MS-OFFICE 2021</span>
+            </div>
+            <div class="features">
+
+                <h1>ASUS TUF F15</h1>
+                <P>ASUS TUF Gaming F15, Gaming Laptop, 11th Gen Intel Core i5-11400H, RTX 2050 Grph (16GB/512GB/39.62
+                    cms (15.6) FHD/Windows 11 Home) FX506HF-HN025W</P>
+            </div>
+            
+        </div>
+        <div class="button">
+            <button>SPECIFICATIONS</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
